@@ -1,0 +1,78 @@
+*{
+    margin:0; /*espaço interno*/
+    padding:0; /*espaço eterno*/
+    font-family:Arial;
+}
+main{
+    /*borda solida de 1px na cor cinza */
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 10px;/*espaço interno - entre o elemento e a borda*/
+    /*espaço interno - entre o elemento e a borda*/
+    padding: 10px;
+}
+h1{
+    /*espaço interno - entre o elemento e a borda*/
+    padding: 8px;
+    text-align: center;
+    color: #4caf50;
+    /*tranforma em letra maiuscula*/
+    text-transform: uppercase;
+}
+#texto{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height:1.5;
+}
+.primeiro{
+    color: #7f00ff;
+}
+/*Mudar a cor do link ao passar o mouse */
+.primeiro:hover{
+    color: #ffcc00;
+}
+#article-central{
+    border: 1px solid gray;
+    padding: 50px;
+    background-color: #708090;
+    color: #FFF;
+}
+ul.a{
+    list-style-type: square;
+}
+.b li{
+    font-family:'Courier New';
+}
+ol.c{
+    list-style-type: upper-roman;
+}
+ol.d{
+    list-style-type: lower-greek;
+}
+#tabela-estilosa{
+    font-family: Arial;
+    border-collapse: collapse; /*borda com linha*/
+    width: 100%;
+}
+#tabela-estilosa td, #tabela-estilosa th{
+    border: 1px solid #DDD;
+    padding: 8px;
+}
+/*linha zebrada na tabela */
+#tabela-estilosa tr:nth-child(even){
+    background-color: #f2f2f2;
+    color: #000;
+}
+#tabela-estilosa tr:hover{
+    background-color: #DDD;
+    color: #000;
+}
+#tabela-estilosa th{
+    padding-top: 12px; /*espaço interno de baixo */
+    padding-bottom: 12px;
+    background: #833AB4;
+background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: #FFF;
+
+}
