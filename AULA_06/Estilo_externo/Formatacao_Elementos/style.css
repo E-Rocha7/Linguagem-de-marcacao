@@ -1,0 +1,12 @@
+*{
+    margin:0; /*espaço interno*/
+    padding:0; /*espaço eterno*/
+    font-family:Arial;
+}
+main{
+    /*borda solida de 1px na cor cinza */
+    border: 1px solid gray;
+    border-radius:15px;
+    /*espaço externo - entreno elemento e a borda*/
+    margin: 10px;
+}

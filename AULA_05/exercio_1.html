@@ -1,0 +1,136 @@
+<!DOCTYLE html>
+<html lang="pr-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro do Usuario</title>
+</head>
+<body>
+	<form action="#" method="POST">
+		<label for="nome">Codigo:</label>
+	<input type="text" id="codigo" name="codigo" value="0" style="text-align: right;" disabled>
+	<br>
+
+		<label for="nome">N° do contrato:</label>
+	<input type="number" id="contrato" name="contrato" placeholder="N° Contrato..." minlength="3" maxlength="255" required>
+		<label for="nome">N° da loja:</label>
+	<input type="number" id="loja" name="loja" placeholder="N° Loja..." minlength="3" maxlength="255" required>
+	<br>
+		<label for="nome">Descrição:</label>
+		<input type=""text" id="descricao" name="descricao" placeholder="Digite..." minlength="3" maxlength="255" required>
+
+	<br>
+		<label for="nome">Data:</label>
+		<input type="date" id="data" name="data" required>
+	<br>
+		<label for="turma">Operadora:</label>
+			<select name="turma" id="turma" required>
+		<option value="">Selecione...</option>
+		<option value="1EMA">Claro</option>
+	<option value="1EMB">Vivo</option>
+	<option value="2EMA">BS</option>
+		</select>
+	<br>
+	<label for="turma">Filial:</label>
+		<select name="filial" id="filial" required>
+	<option value="">Selecione...</option>
+	<option value="1EMA">Claro</option>
+	<option value="1EMB">Vivo</option>
+	<option value="2EMA">BS</option>
+</select>
+	<br>
+	<label for="turma">Empresa Matriz:</label>
+		<select name="matriz" id="matriz" required>
+		<option value="">Selecione...</option>
+		<option value="1EMA">Claro</option>
+		<option value="1EMB">Vivo</option>
+		<option value="2EMA">BS</option>
+	</select>
+	<br>
+	<label for="turma">Origem das contas contabeis:</label>
+		<select name="contabeis" id="contabeis" required>
+			<option value="">Contrato...</option>
+		<option value="1EMA">Claro</option>
+		<option value="1EMB">Vivo</option>
+		<option value="2EMA">BS</option>
+	</select>
+		<input type="checkbox" id="termos" name="termos" required>Deposito da conta informada
+	<br>
+	<label for="turma">Status do contrato:</label>
+		<select name="status" id="status" required>
+		<option value="">Ative...</option>
+		<option value="1EMA">Claro</option>
+		<option value="1EMB">Vivo</option>
+		<option value="2EMA">BS</option>
+	</select>
+	<input type="checkbox" id="termos" name="termos" required>condições consolidadas
+	<br>
+	<label for="turma">Indentificar comprovante por::</label>
+		<select name="ind" id="ind" required>
+		<option value="">Numero de autorização...</option>
+		<option value="1EMA">Claro</option>
+		<option value="1EMB">Vivo</option>
+		<option value="2EMA">BS</option>
+	</select>
+
+		<input type="checkbox" id="termos" name="termos" required>Remover zeros esquerda do N° comprovante
+		<input type="checkbox" id="termos" name="termos" required>Validar valores na conciliação automatica
+	<br>
+	<input type="checkbox" id="termos" name="termos" required>Usar campo de usuario[Data de tranzação do cartão] do contas a receber para indetificar o comprovante na conciliação
+	<br>
+	<input type="checkbox" id="termos" name="termos" required>Gerar cotas a receber por conta para comprovantes não indetificados
+		<input type="checkbox" id="termos" name="termos" required>Contas a receber agrupado
+	<br>
+		<input type="checkbox" id="termos" name="termos" required>Usar projeto do cadastro de equipamento
+		<input type="checkbox" id="termos" name="termos" required>LCM agrupado de comprovante do cartão
+	<br>
+		<label for="nome">Cartão:</label>
+	<input type="text" id="cartao" name="cartao" value="Não informado" disabled>
+	<br>
+		<label for="nome">Forma de pagamento:</label>
+		<input type="text" id="cartao" name="cartao" value="Não informado" disabled>
+	<br>
+	<hr>
+		<p>Contabilização</p>
+		<label for="cod">Conta de provisão     -></label>
+		<input type="number" id="cod" name="cod">
+		<input type="number" id="cod1" name="cod1">
+	<br>
+		<label for="cod">Conta de banco     -></label>
+		<input type="number" id="cod2" name="cod2">
+		<input type="number" id="cod3" name="cod3">
+	<br>
+		<label for="cod">Conta para comissão     -></label>
+		<input type="number" id="cod4" name="cod4">
+		<input type="number" id="cod5" name="cod5">
+	<br>
+			<label for="cod">Conta para cancelamento     -></label>
+			<input type="number" id="cod6" name="cod6">
+		<input type="number" id="cod7" name="cod7">
+	<br>
+		<label for="cod">Conta de antecipação     -></label>
+		<input type="number" id="cod8" name="cod8">
+		<input type="number" id="cod9" name="cod9">
+	<br>
+		<label for="cod">Conta de debito     -></label>
+		<input type="number" id="cod10" name="cod10">
+		<input type="number" id="cod11" name="cod11">
+	<br>
+			<label for="cod">Conta de crédito     -></label>
+		<input type="number" id="cod12" name="cod12">
+		<input type="number" id="cod13" name="cod13">
+	<br>
+			<label for="cod">Conta de despesas de aluguel     -></label>
+		<input type="number" id="cod14" name="cod14">
+		<input type="number" id="cod15" name="cod15">
+	<br>
+		<label for="cod">Conta de compensação     -></label>
+		<input type="number" id="cod16" name="cod16">
+	<input type="number" id="cod17" name="cod17">
+<hr>
+	<br>
+		<button style="background:yellow">Inserir</button>
+		<button style="background:yellow">Clique aqui</button>
+		<button style="background:yellow">Clique aqui</button>
+	</form>
+	</body>
+</html>
